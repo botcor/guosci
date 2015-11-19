@@ -3,6 +3,19 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-
-    <color name="black_overlay">#66000000</color>
+    <color name="colBackground">#000000</color>
+    <color name="colGrid">#FFFFFF</color>
+    <color name="colMenuOrangeDark">#843C0C</color> 132|60|12
+    <color name="colMenuOrange">#DE6614</color> 222|102|20
+    <color name="colMenuOrangeLight">#F4B183</color> 244|177|131
+    <color name="colMenuYellowDark">#BF9000</color> 191|144|0
+    <color name="colMenuYellow">#FFC000</color> 255|192|0
+    <color name="colMenuYellowLight">#FFD966</color> 255|217|102
+    <color name="colMenuBlueDark">#2F5597</color> 47|85|151
+    <color name="colMenuBlue">#7085DE</color> 112|133|222
+    <color name="colMenuBlueLight">#9DC3E6</color> 157|195|230
+    <color name="colChannelOne">#FFFF00</color>
+    <color name="colChannelTwo">#00FFFF</color>
+    <color name="colChannelThree">#00FF00</color>
+    <color name="colChannelFour">#FF00FF</color>
 </resources>
