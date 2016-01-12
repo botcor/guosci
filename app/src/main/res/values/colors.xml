@@ -15,7 +15,11 @@
     <color name="colMenuBlue">#7085DE</color> 112|133|222
     <color name="colMenuBlueLight">#9DC3E6</color> 157|195|230
     <color name="colChannelOne">#FFFF00</color>
+    <color name="colChannelOneDark">#999900</color>
     <color name="colChannelTwo">#00FFFF</color>
+    <color name="colChannelTwoDark">#009999</color>
     <color name="colChannelThree">#00FF00</color>
+    <color name="colChannelThreeDark">#009900</color>
     <color name="colChannelFour">#FF00FF</color>
+    <color name="colChannelFourDark">#990099</color>
 </resources>

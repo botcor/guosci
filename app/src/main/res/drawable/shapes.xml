@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:name="orangebutton">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colMenuOrangeDark"/>
+            <stroke android:color="@color/colMenuOrange" android:width="2dp" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:name="bluebutton" android:shape="rectangle">
+            <solid android:color="@color/colMenuBlueDark"/>
+            <stroke android:color="@color/colMenuBlue" android:width="2dp" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:name="yellowbutton" android:shape="rectangle">
+            <solid android:color="@color/colMenuYellowDark"/>
+            <stroke android:color="@color/colMenuYellow" android:width="2dp" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</selector>

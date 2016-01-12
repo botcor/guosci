@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/D:/Programme/AndroidStudioProjects/guosci/app/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr name="btn_channel_height">60dp</attr>
     <!-- From: file:/D:/Programme/AndroidStudioProjects/guosci/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -24,11 +27,6 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
-    <!-- From: file:/D:/Programme/AndroidStudioProjects/guosci/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="black_overlay">#66000000</color>
-    <!-- From: file:/D:/Programme/AndroidStudioProjects/guosci/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
-    <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -39,6 +37,25 @@
     <color name="button_material_light">#ffd6d7d7</color>
     <!-- From: file:/D:/Programme/AndroidStudioProjects/guosci/app/src/main/res/values/colors.xml -->
     <eat-comment/>
+    <color name="colBackground">#000000</color>
+    <color name="colChannelFour">#FF00FF</color>
+    <color name="colChannelFourDark">#990099</color>
+    <color name="colChannelOne">#FFFF00</color>
+    <color name="colChannelOneDark">#999900</color>
+    <color name="colChannelThree">#00FF00</color>
+    <color name="colChannelThreeDark">#009900</color>
+    <color name="colChannelTwo">#00FFFF</color>
+    <color name="colChannelTwoDark">#009999</color>
+    <color name="colGrid">#FFFFFF</color>
+    <color name="colMenuBlue">#7085DE</color>
+    <color name="colMenuBlueDark">#2F5597</color>
+    <color name="colMenuBlueLight">#9DC3E6</color>
+    <color name="colMenuOrange">#DE6614</color>
+    <color name="colMenuOrangeDark">#843C0C</color>
+    <color name="colMenuOrangeLight">#F4B183</color>
+    <color name="colMenuYellow">#FFC000</color>
+    <color name="colMenuYellowDark">#BF9000</color>
+    <color name="colMenuYellowLight">#FFD966</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
@@ -1182,7 +1199,7 @@
     <!-- From: file:/D:/Programme/AndroidStudioProjects/guosci/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
-        <item name="android:background">@color/black_overlay</item>
+        <item name="android:background">@color/colBackground</item>
     </style>
     <style name="FullscreenTheme" parent="AppTheme">
         <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>

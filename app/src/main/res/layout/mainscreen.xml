@@ -19,14 +19,61 @@
         <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
             android:layout_width="match_parent" android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
-            android:background="@color/black_overlay" android:orientation="horizontal"
+            android:background="@color/colBackground" android:orientation="horizontal"
             tools:ignore="UselessParent">
 
-            <Button android:id="@+id/dummy_button" style="?metaButtonBarButtonStyle"
-                android:layout_width="0dp" android:layout_height="wrap_content"
-                android:layout_weight="1" android:text="@string/dummy_button" />
-
         </LinearLayout>
+
+        <Button
+            android:id ="@+id/btn_chn1"
+            android:layout_width="30dp"
+            android:layout_height="@string/btn_channel_height"
+            android:layout_gravity="left|top"
+            android:text="1"
+            android:background="@drawable/btn_channel1"
+            android:padding="5dp"
+            android:textColor="@color/colGrid"
+            />
+
+        <Button
+            android:id ="@+id/btn_chn2"
+            android:layout_width="30dp"
+            android:layout_height="@string/btn_channel_height"
+            android:text="2"
+            android:background="@drawable/btn_channel2"
+            android:padding="5dp"
+            android:textColor="@color/colGrid"
+            android:layout_marginTop="60dp" />
+
+        <Button
+            android:id ="@+id/btn_chn3"
+            android:layout_width="30dp"
+            android:layout_height="@string/btn_channel_height"
+            android:layout_gravity="top|left|center"
+            android:text="3"
+            android:background="@drawable/btn_channel3"
+            android:padding="5dp"
+            android:textColor="@color/colGrid"
+            android:layout_marginTop="120dp" />
+
+        <Button
+            android:id ="@+id/btn_chn41"
+            android:layout_width="30dp"
+            android:layout_height="@string/btn_channel_height"
+            android:layout_gravity="top|left"
+            android:text="4"
+            android:background="@drawable/btn_channel4"
+            android:padding="5dp"
+            android:textColor="@color/colGrid"
+            android:layout_marginTop="180dp" />
+
+        <TextureView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textureView"
+            android:layout_gravity="center"
+            android:background="@color/colBackground" />
+
     </FrameLayout>
 
 </FrameLayout>
